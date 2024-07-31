@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+  .searchTerm {
+    width: 70%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 10px;
+    margin: 10px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  body{
+    background-color: lightblue;
+  }
+  
+  .container{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  section{
+    min-height: 100px;
+  }
+
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-top: 10px;
+    margin-left: 20px;
+    
+  }
+
+  .card{
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    min-width: 1000px;
+    max-width: 1000px;
+    margin-right: 10px;
+    background-color: white;
+  }
+
+  img{
+    min-width: 200px;
+    min-height: 175px;
+    max-width: 350px;
+    max-height: fit-content;
+    float: left;
+    border-radius: 10px;
+    border: 3px solid white;
+  }
+
+  .event-details-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    padding-right: 20px;
+  }
+
+  .card-details{
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .register-button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 90px;
+    margin-right: 20px;
+    font-size: medium;
+  }
+
+  .register-button:hover{
+    background-color: white;
+    color: #111;
+    animation-duration: 2s;
+
+  }
+
+  .event-last-line{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+  }
+
+  .NoOfPeople{
+    margin-left: 80px;
+  }
+
+  section{
+    display: flex;
+  }
