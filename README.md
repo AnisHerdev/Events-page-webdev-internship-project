@@ -8,7 +8,7 @@ If you don't have node js installed in both "server" and "eventsPage_ReactApp" d
 
 ### `npm install`
 
-##In "eventsPage_ReactApp" directory, you can run:
+## In "eventsPage_ReactApp" directory, you can run:
 
 ### `npm install axios`
 We are using axios to connect it to the backend.
@@ -19,6 +19,6 @@ Runs the app in the development mode.
 The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-##In <b>"server"</b> directory to install all dependencies run:
+## In <b>"server"</b> directory to install all dependencies run:
 
 ### `npm install MongoDB nodemon cors express mongoose`
